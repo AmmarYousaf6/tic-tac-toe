@@ -1,5 +1,5 @@
 # tic-tac-toe
-Tic-tac-toe, also known as noughts and crosses or Xs and Os, is a simple game that can be implemented in JavaScript.
+Tic-tac-toe, also known as noughts and crosses or Xs and Os, is a simple game.
 
 #How it works
 TicTacToe class implements a basic Tic-tac-toe game, using a 2D array to represent the game board. The play method allows players to make a move by placing their symbol (either 'X' or 'O') on the board. The checkWin method is used to check if either player has won the game, or if the game has ended in a draw. It check the rows, columns and diagonals, if any of them are same return the winner symbol. In case all the cells are filled and none of the above condiiton met, it returns 'D.
